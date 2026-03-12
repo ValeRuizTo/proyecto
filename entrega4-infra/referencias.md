@@ -3,16 +3,23 @@
 Este archivo contiene las fuentes consultadas para el desarrollo del taller, tanto para el componente técnico como para la investigación complementaria.
 
 ## 🔖 Taller
-_Taller X - [Nombre del Taller]_
+Taller 4
 
 ---
 
 ## 📚 Referencias utilizadas
 
-1. Apellido, Nombre. *Título del libro o artículo*. Editorial, Año. URL o DOI.  
-2. Organización. *Especificación técnica o estándar consultado*. URL.  
-3. Sitio web institucional. "Título del artículo o página". [Enlace](https://ejemplo.com). Fecha de consulta: DD/MM/AAAA.  
-4. Otro recurso académico o técnico citado.
+1. Atlassian. (s.f.). What is an architecture diagram? Types and best practices.
+Disponible en: https://www.atlassian.com/work-management/project-management/architecture-diagram
+
+2. Imaginary Cloud. (2023). Software architecture diagrams: best practices.
+Disponible en: https://www.imaginarycloud.com/blog/software-architecture-diagrams-guide
+
+3. Microsoft. (2024). Architecture design diagrams – Azure Well-Architected Framework.
+Disponible en: https://learn.microsoft.com/azure/well-architected/architect-role/design-diagrams
+
+4. ISO/IEC/IEEE. (2022). ISO/IEC/IEEE 42010 — Systems and software engineering: Architecture description.
+Disponible en: https://en.wikipedia.org/wiki/ISO/IEC_42010
 
 ---
 
