@@ -100,14 +100,22 @@ Buenas prácticas para el modelado de diagramas de infraestructura en arquitectu
 ### Resumen:
 El modelado de diagramas de infraestructura en arquitecturas de software permite representar de forma visual los componentes tecnológicos que soportan un sistema, así como las conexiones y dependencias entre ellos. Estos diagramas suelen incluir elementos como usuarios, redes, servidores, aplicaciones, servicios y bases de datos, organizados en diferentes capas que facilitan la comprensión del funcionamiento general del sistema. Según el Software Engineering Institute (SEI), los diagramas de arquitectura ayudan a documentar cómo se distribuyen los componentes de software y hardware, permitiendo analizar aspectos como disponibilidad, escalabilidad y seguridad dentro de un sistema tecnológico.
 
-Entre las buenas prácticas más recomendadas para el modelado de infraestructura se encuentra la organización de los componentes en capas claras (usuarios, red, aplicación y datos), la representación explícita de las conexiones entre servicios y el uso de etiquetas que indiquen protocolos o tipos de comunicación. Además, es importante identificar dependencias críticas dentro del sistema, ya que esto permite detectar posibles puntos únicos de falla (Single Point of Failure – SPOF) o limitaciones de rendimiento. De acuerdo con Richards y Ford (2020), documentar la infraestructura mediante diagramas facilita el análisis de riesgos técnicos y permite comprender cómo interactúan los diferentes servicios que conforman una arquitectura de software.
+Entre las buenas prácticas más recomendadas para el modelado de infraestructura se encuentra la organización de los componentes en capas claras (usuarios, red, aplicación y datos), la representación explícita de las conexiones entre servicios y el uso de etiquetas que indiquen protocolos o tipos de comunicación. Además, es importante identificar dependencias críticas dentro del sistema, ya que esto permite detectar posibles puntos únicos de falla (Single Point of Failure – SPOF) o limitaciones de rendimiento. Documentar la infraestructura mediante diagramas facilita el análisis de riesgos técnicos y permite comprender cómo interactúan los diferentes servicios que conforman una arquitectura de software.
 
 En el contexto del taller, esta investigación se relaciona directamente con la construcción del diagrama de infraestructura del sistema analizado. Las buenas prácticas estudiadas se aplicaron al organizar el modelo en diferentes capas, representando a los usuarios del sistema, la conexión a internet y los servicios en la nube utilizados para almacenar la información. De esta forma, el diagrama no solo describe la arquitectura actual del sistema, sino que también permite identificar sus limitaciones y puntos de dependencia, lo que resulta útil para comprender el funcionamiento del sistema y evaluar posibles mejoras en el futuro.
 
 ## 📚 Referencias
-Atlassian. (s.f.). What is an architecture diagram? Types and best practices.
+- Atlassian. (s.f.). What is an architecture diagram? Types and best practices.
 Disponible en: https://www.atlassian.com/work-management/project-management/architecture-diagram
 
+- Imaginary Cloud. (2023). Software architecture diagrams: best practices.
+Disponible en: https://www.imaginarycloud.com/blog/software-architecture-diagrams-guide
+
+- Microsoft. (2024). Architecture design diagrams – Azure Well-Architected Framework.
+Disponible en: https://learn.microsoft.com/azure/well-architected/architect-role/design-diagrams
+
+- ISO/IEC/IEEE. (2022). ISO/IEC/IEEE 42010 — Systems and software engineering: Architecture description.
+Disponible en: https://en.wikipedia.org/wiki/ISO/IEC_42010
 ---
 
-_Este documento hace parte de la entrega del taller X del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
+_Este documento hace parte de la entrega del taller 4 del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
