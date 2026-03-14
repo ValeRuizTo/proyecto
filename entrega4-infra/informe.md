@@ -116,6 +116,9 @@ Disponible en: https://learn.microsoft.com/azure/well-architected/architect-role
 
 - ISO/IEC/IEEE. (2022). ISO/IEC/IEEE 42010 — Systems and software engineering: Architecture description.
 Disponible en: https://en.wikipedia.org/wiki/ISO/IEC_42010
+
+- A. Araujo, “Guía completa para crear tu diagrama de infraestructura,” Hackmetrix Blog, Feb. 6, 2026. [En línea]. Disponible en: https://blog.hackmetrix.com/como-hacer-un-diagrama-de-infraestructura/
+. [Accedido: 14-mar-2026].
 ---
 
 _Este documento hace parte de la entrega del taller 4 del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
