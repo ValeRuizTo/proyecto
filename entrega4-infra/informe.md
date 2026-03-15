@@ -76,7 +76,7 @@ Adicionalmente, se consideró que el número de usuarios concurrentes del sistem
 
 
 ## 📈 Diagrama final entregado
-![.](AS-IS_infra.png)
+![.](AS-IS_infrae.png)
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
 | Nombre del elemento               | Tipo                               | Descripción                                                                                               | Responsable           |
