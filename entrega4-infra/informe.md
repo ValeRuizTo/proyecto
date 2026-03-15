@@ -76,8 +76,7 @@ Adicionalmente, se consideró que el número de usuarios concurrentes del sistem
 
 
 ## 📈 Diagrama final entregado
-> (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
-
+![.](AS-IS_infraestructura.png)
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
 | Nombre del elemento               | Tipo                               | Descripción                                                                                               | Responsable           |
