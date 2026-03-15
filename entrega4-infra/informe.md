@@ -1,7 +1,7 @@
 # 📄 Informe Técnico del Taller
 
 ## 🔖 Nombre del Taller
-_Taller X - [Nombre completo del taller]_
+_Taller 4 - Taller infraestructura_
 
 ## 👥 Integrantes del equipo
 - Valentina Ruiz
@@ -76,7 +76,7 @@ Adicionalmente, se consideró que el número de usuarios concurrentes del sistem
 
 
 ## 📈 Diagrama final entregado
-![.](AS-IS_infraestructura.png)
+![.](AS-IS_infra.png)
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
 | Nombre del elemento               | Tipo                               | Descripción                                                                                               | Responsable           |
