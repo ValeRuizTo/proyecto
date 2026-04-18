@@ -256,9 +256,14 @@ El cumplimiento normativo en sistemas de información implica la adopción de po
 En el contexto del taller, estas normativas se relacionan directamente con la construcción de un checklist de cumplimiento, ya que proporcionan los criterios que permiten evaluar si un sistema como GobData protege adecuadamente la información que gestiona. Aspectos como el control de accesos, la trazabilidad, la gestión del consentimiento, la retención de datos y la protección contra fugas de información son derivados de estos marcos normativos. Esta investigación permite sustentar la identificación de brechas y la formulación de recomendaciones, asegurando que el sistema no solo funcione correctamente, sino que también cumpla con los requisitos legales y de seguridad exigidos.
 
 ## 📚 Referencias
-- [1] Apellido, Nombre. *Título*. Año. URL o DOI.
-- [2] Fuente oficial BPMN: https://www.omg.org/spec/BPMN/
+- [1] Congreso de la República de Colombia. *Ley 1581 de 2012: Protección de Datos Personales*. 2012. https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981  
+- [2] Superintendencia de Industria y Comercio. *Guía para la implementación del principio de responsabilidad demostrada (accountability)*. 2017. https://www.sic.gov.co  
+- [3] International Organization for Standardization (ISO). *ISO/IEC 27001: Information Security Management Systems*. 2013. https://www.iso.org/isoiec-27001-information-security.html  
+- [4] European Parliament and Council. *General Data Protection Regulation (GDPR) - Regulation (EU) 2016/679*. 2016. https://eur-lex.europa.eu/eli/reg/2016/679/oj  
+- [5] Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC). *Modelo de Seguridad y Privacidad de la Información (MSPI)*. 2020. https://www.mintic.gov.co  
+- [6] Superintendencia de Industria y Comercio. *Guía de Protección de Datos Personales en Colombia*. 2020. https://www.sic.gov.co/proteccion-de-datos-personales  
+- [7] NIST. *Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)*. 2010. https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-122.pdf  
 
 ---
 
-_Este documento hace parte de la entrega del taller X del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
+_Este documento hace parte de la entrega del taller 6 del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
