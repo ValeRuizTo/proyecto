@@ -4,9 +4,9 @@
 _Taller 6 - Normativas_
 
 ## 👥 Integrantes del equipo
-- Nombre 1 (correo o usuario GitHub)
-- Nombre 2
-- Nombre 3
+- Valentina Ruiz
+- Darek Aljuri
+- Santiago Soler
 
 ## 🧠 Descripción general del trabajo
 Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
