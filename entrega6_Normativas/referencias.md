@@ -9,16 +9,14 @@ Taller 6
 
 ## 📚 Referencias utilizadas
 
-1. Microsoft Learn. (2023). Threat modeling with STRIDE.
-Disponible en: https://learn.microsoft.com/en-us/security/engineering/threat-modeling-stride
+- [1] Congreso de la República de Colombia. *Ley 1581 de 2012: Protección de Datos Personales*. 2012. https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981  
+- [2] Superintendencia de Industria y Comercio. *Guía para la implementación del principio de responsabilidad demostrada (accountability)*. 2017. https://www.sic.gov.co  
+- [3] International Organization for Standardization (ISO). *ISO/IEC 27001: Information Security Management Systems*. 2013. https://www.iso.org/isoiec-27001-information-security.html  
+- [4] European Parliament and Council. *General Data Protection Regulation (GDPR) - Regulation (EU) 2016/679*. 2016. https://eur-lex.europa.eu/eli/reg/2016/679/oj  
+- [5] Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC). *Modelo de Seguridad y Privacidad de la Información (MSPI)*. 2020. https://www.mintic.gov.co  
+- [6] Superintendencia de Industria y Comercio. *Guía de Protección de Datos Personales en Colombia*. 2020. https://www.sic.gov.co/proteccion-de-datos-personales  
+- [7] NIST. *Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)*. 2010. https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-122.pdf  
 
-2. OWASP. (2023). Threat Modeling.
-Disponible en: https://owasp.org/www-community/Threat_Modeling
-
-3. Carnegie Mellon Software Engineering Institute. (2022). Threat Modeling and STRIDE methodology.
-Disponible en: https://insights.sei.cmu.edu/blog/threat-modeling-what-it-is-and-how-to-use-it/
-
-4. Threat Modeling: Designing for Security. Shostack, A. (2014). Wiley.
 
 ---
 
