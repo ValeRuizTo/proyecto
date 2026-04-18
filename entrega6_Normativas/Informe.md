@@ -50,9 +50,17 @@ En conjunto, estos supuestos no debilitan el modelo, sino que lo hacen más real
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
-| Nombre del elemento | Tipo | Descripción | Responsable |
-|---------------------|------|-------------|-------------|
-| Ej: Paciente        | Actor | Usuario que agenda una cita médica | Cliente |
+| Nombre del elemento               | Tipo       | Descripción                                                                                                                                                                                     | Responsable           |
+| --------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| Usuario Administrativo            | Actor      | Persona encargada de gestionar la información operativa del sistema, incluyendo datos de clientes, servicios e inventario, asegurando el cumplimiento de las políticas de tratamiento de datos. | Administración        |
+| Gerente                           | Actor      | Responsable de definir políticas organizacionales, garantizar el cumplimiento de la normativa de protección de datos y supervisar el uso adecuado de la información.                            | Gerencia              |
+| Cliente                           | Actor      | Titular de los datos personales que son recolectados, almacenados y tratados por el sistema, con derechos sobre su información conforme a la normativa vigente.                                 | Administración        |
+| Sistema Actual (Google Docs)      | Componente | Herramienta utilizada actualmente para almacenar información, que presenta limitaciones en términos de control y cumplimiento normativo.                                                        | Administración        |
+| Datos Personales                  | Entidad    | Información identificable de los clientes (nombre, cédula, contacto), protegida por la Ley 1581 de 2012 y principios de Habeas Data.                                                            | Administración        |
+| Políticas de Tratamiento de Datos | Componente | Conjunto de lineamientos que regulan la recolección, uso, almacenamiento y eliminación de datos personales dentro del sistema.                                                                  | Gerencia              |
+| Internet                          | Componente | Medio por el cual se accede al sistema y se transmiten datos, lo que implica obligaciones de protección en tránsito y seguridad de la información.                                              | Proveedor de servicio |
+| Proveedor Cloud (Google)          | Actor      | Tercero que procesa o almacena información en la nube, con responsabilidades indirectas en la protección de datos.                                                                              | Google                |
+
 
 ## 🔍 Investigación complementaria
 ### Tema investigado:  
