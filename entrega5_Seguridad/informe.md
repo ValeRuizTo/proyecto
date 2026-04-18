@@ -39,7 +39,7 @@ Supuestos del modelo. El análisis parte de varios supuestos explícitos e impl�
 ## 📈 Diagrama final entregado
 
 ![.](diagrama.png)
-![.](diagrama2.png)
+![.](Diagrama.png)
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
