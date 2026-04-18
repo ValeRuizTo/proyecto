@@ -22,8 +22,8 @@ Incluya un análisis sobre:
 
 ## 📈 Diagrama final entregado
 
-![.](diiagrama1.png)
-
+![.](diagrama1.png)
+![.](diagrama2.png)
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
