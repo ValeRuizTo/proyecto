@@ -33,7 +33,7 @@ El modelo desarrollado presenta una estructura sólida y coherente desde la pers
 
 En primer lugar, la estructura del modelo se basa en una lógica de verificación sistemática del cumplimiento. Cada requisito normativo no se presenta de forma aislada, sino contextualizado dentro de la realidad del sistema, acompañado de su estado actual y de una acción recomendada. Esta forma de organización permite que el modelo no sea simplemente descriptivo, sino que funcione como una herramienta de gestión. Es decir, no solo indica qué exige la norma, sino qué está fallando y qué debe hacerse al respecto. Desde el punto de vista metodológico, esto representa una transición importante: el modelo deja de ser teórico y se convierte en operativo.
 
-Adicionalmente, el modelo refleja una comprensión adecuada de la relación entre tecnología, información y regulación. No se limita a evaluar componentes técnicos, sino que incorpora elementos organizacionales como políticas, responsabilidades y procesos. Esto es especialmente relevante en el contexto de la seguridad y el cumplimiento, ya que muchas de las obligaciones legales —como la obtención del consentimiento o la definición de políticas de tratamiento de datos— no dependen únicamente de la tecnología, sino de decisiones organizacionales. En este sentido, el modelo logra capturar la esencia de la arquitectura empresarial: la alineación entre negocio, procesos y tecnología.
+Adicionalmente, el modelo refleja una comprensión adecuada de la relación entre tecnología, información y regulación. No se limita a evaluar componentes técnicos, sino que incorpora elementos organizacionales como políticas, responsabilidades y procesos. Esto es especialmente relevante en el contexto de la seguridad y el cumplimiento, ya que muchas de las obligaciones legales como la obtención del consentimiento o la definición de políticas de tratamiento de datos no dependen únicamente de la tecnología, sino de decisiones organizacionales. En este sentido, el modelo logra capturar la esencia de la arquitectura empresarial: la alineación entre negocio, procesos y tecnología.
 
 En cuanto a la representación de las necesidades del cliente, el modelo demuestra un alto grado de contextualización. Los requisitos no están formulados en términos abstractos o jurídicos complejos, sino que se interpretan en función de situaciones reales del negocio. Por ejemplo, el manejo de datos personales no se analiza únicamente como un principio legal, sino como una práctica concreta que impacta directamente la operación diaria, como el registro de clientes o la gestión de servicios. Esta aproximación facilita que los responsables del negocio comprendan la importancia del cumplimiento normativo y puedan actuar sobre él sin necesidad de intermediación técnica o legal especializada.
 
@@ -46,7 +46,11 @@ Finalmente, en relación con los supuestos del modelo, se identifican varios ele
 En conjunto, estos supuestos no debilitan el modelo, sino que lo hacen más realista y aplicable, ya que permiten adaptar el análisis a las condiciones concretas del negocio.
 
 ## 📈 Diagrama final entregado
-> (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
+
+![.](diagrama1.png)
+![.](diagrama2.png)
+![.](diagrama3.png)
+
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
