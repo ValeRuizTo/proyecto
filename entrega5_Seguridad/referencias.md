@@ -3,26 +3,22 @@
 Este archivo contiene las fuentes consultadas para el desarrollo del taller, tanto para el componente técnico como para la investigación complementaria.
 
 ## 🔖 Taller
-Taller 4
+Taller 5
 
 ---
 
 ## 📚 Referencias utilizadas
 
-1. Atlassian. (s.f.). What is an architecture diagram? Types and best practices.
-Disponible en: https://www.atlassian.com/work-management/project-management/architecture-diagram
+1. Microsoft Learn. (2023). Threat modeling with STRIDE.
+Disponible en: https://learn.microsoft.com/en-us/security/engineering/threat-modeling-stride
 
-2. Imaginary Cloud. (2023). Software architecture diagrams: best practices.
-Disponible en: https://www.imaginarycloud.com/blog/software-architecture-diagrams-guide
+2. OWASP. (2023). Threat Modeling.
+Disponible en: https://owasp.org/www-community/Threat_Modeling
 
-3. Microsoft. (2024). Architecture design diagrams – Azure Well-Architected Framework.
-Disponible en: https://learn.microsoft.com/azure/well-architected/architect-role/design-diagrams
+3. Carnegie Mellon Software Engineering Institute. (2022). Threat Modeling and STRIDE methodology.
+Disponible en: https://insights.sei.cmu.edu/blog/threat-modeling-what-it-is-and-how-to-use-it/
 
-4. ISO/IEC/IEEE. (2022). ISO/IEC/IEEE 42010 — Systems and software engineering: Architecture description.
-Disponible en: https://en.wikipedia.org/wiki/ISO/IEC_42010
-
-5. A. Araujo, “Guía completa para crear tu diagrama de infraestructura,” Hackmetrix Blog, Feb. 6, 2026. [En línea]. Disponible en: https://blog.hackmetrix.com/como-hacer-un-diagrama-de-infraestructura/
-. [Accedido: 14-mar-2026].
+4. Threat Modeling: Designing for Security. Shostack, A. (2014). Wiley.
 
 ---
 
