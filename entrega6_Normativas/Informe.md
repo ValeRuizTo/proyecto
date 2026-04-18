@@ -50,7 +50,10 @@ En conjunto, estos supuestos no debilitan el modelo, sino que lo hacen más real
 ![.](diagrama1.png)
 ![.](diagrama2.png)
 ![.](diagrama3.png)
-
+![.](diagrama4.png)
+![.](diagrama5.png)
+![.](diagrama6.png)
+![.](diagrama7.png)
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
