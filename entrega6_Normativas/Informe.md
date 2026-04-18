@@ -9,16 +9,41 @@ _Taller 6 - Normativas_
 - Santiago Soler
 
 ## 🧠 Descripción general del trabajo
-Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
+El objetivo del taller fue analizar el grado de cumplimiento de los requisitos legales, normativos y de protección de datos aplicables al sistema de información de Súper Amortiguadores LTDA, tomando como base marcos reconocidos como la ISO/IEC 27001, el GDPR, y la normativa colombiana vigente, particularmente la Ley 1581 de 2012 y el principio de Habeas Data.
+
+La actividad se desarrolló mediante la construcción de una lista de verificación estructurada (checklist), en la cual se evaluaron distintos requisitos asociados a la gestión de datos personales, seguridad de la información y gobierno del sistema. Cada elemento del checklist permitió contrastar el estado actual del negocio con lo que exigen las normativas, identificando brechas, controles inexistentes y acciones necesarias.
+
+El resultado obtenido no es únicamente un registro de cumplimiento, sino un instrumento de diagnóstico organizacional que permite orientar la evolución del sistema hacia un modelo alineado con estándares legales y buenas prácticas internacionales, garantizando así la protección de la información y la sostenibilidad del negocio.
 
 ## 🔧 Proceso de desarrollo
-Explique cómo realizaron el trabajo: qué decisiones tomaron, qué herramientas utilizaron, qué aspectos modelaron primero y cómo lo fueron ajustando.
+El desarrollo del trabajo se planteó como un ejercicio de análisis progresivo, partiendo de la realidad actual del negocio hacia el diseño de un sistema futuro que cumpla desde su concepción con las exigencias normativas.
+
+En primer lugar, se identificaron los marcos regulatorios aplicables. Esta selección no fue arbitraria, sino que respondió al contexto del negocio: al manejar datos personales de clientes, la empresa está obligada a cumplir con la legislación colombiana (Ley 1581 y Habeas Data). Adicionalmente, se incorporó ISO 27001 como referencia de buenas prácticas en gestión de seguridad, y GDPR como estándar internacional que fortalece el análisis, incluso si no es obligatorio en este caso.
+
+Posteriormente, se analizó el sistema actual, basado en el uso de Google Docs. Este análisis permitió evidenciar una situación típica de pequeñas empresas: la operación depende de herramientas funcionales, pero carece de controles formales, políticas documentadas y mecanismos de protección estructurados. A partir de esta realidad, se evaluaron aspectos como el manejo del consentimiento, el control de accesos, la confidencialidad de la información y la existencia de responsabilidades definidas.
+
+Una vez comprendido el estado actual, se abordó el sistema propuesto. En este punto, el análisis se enfocó en anticipar los requisitos normativos que deben integrarse desde el diseño del sistema, considerando módulos como inventario, citas, historial de vehículos y autenticación. La decisión clave en esta etapa fue no limitarse a evaluar el cumplimiento actual, sino proyectar cómo debe construirse el sistema para evitar futuros incumplimientos legales.
+
+La información se consolidó en un checklist estructurado, donde cada requisito incluye su referencia normativa, el estado de cumplimiento, la evidencia identificada y una recomendación concreta. Este formato permitió transformar normas abstractas en acciones claras y ejecutables.
+
+Finalmente, se asignaron responsables (Gerencia, Administración y TI), reconociendo que, en el contexto de la empresa, el cumplimiento normativo no recae en un área especializada, sino que debe integrarse dentro de la operación cotidiana.
 
 ## 🧩 Análisis del modelo propuesto
-Incluya un análisis sobre:
-- Cómo se estructura el modelo entregado
-- Cómo representa las necesidades del cliente
-- Qué supuestos se tomaron
+El modelo desarrollado presenta una estructura sólida y coherente desde la perspectiva de arquitectura empresarial, en la medida en que traduce marcos normativos complejos en un esquema comprensible, evaluable y accionable para el negocio.
+
+En primer lugar, la estructura del modelo se basa en una lógica de verificación sistemática del cumplimiento. Cada requisito normativo no se presenta de forma aislada, sino contextualizado dentro de la realidad del sistema, acompañado de su estado actual y de una acción recomendada. Esta forma de organización permite que el modelo no sea simplemente descriptivo, sino que funcione como una herramienta de gestión. Es decir, no solo indica qué exige la norma, sino qué está fallando y qué debe hacerse al respecto. Desde el punto de vista metodológico, esto representa una transición importante: el modelo deja de ser teórico y se convierte en operativo.
+
+Adicionalmente, el modelo refleja una comprensión adecuada de la relación entre tecnología, información y regulación. No se limita a evaluar componentes técnicos, sino que incorpora elementos organizacionales como políticas, responsabilidades y procesos. Esto es especialmente relevante en el contexto de la seguridad y el cumplimiento, ya que muchas de las obligaciones legales —como la obtención del consentimiento o la definición de políticas de tratamiento de datos— no dependen únicamente de la tecnología, sino de decisiones organizacionales. En este sentido, el modelo logra capturar la esencia de la arquitectura empresarial: la alineación entre negocio, procesos y tecnología.
+
+En cuanto a la representación de las necesidades del cliente, el modelo demuestra un alto grado de contextualización. Los requisitos no están formulados en términos abstractos o jurídicos complejos, sino que se interpretan en función de situaciones reales del negocio. Por ejemplo, el manejo de datos personales no se analiza únicamente como un principio legal, sino como una práctica concreta que impacta directamente la operación diaria, como el registro de clientes o la gestión de servicios. Esta aproximación facilita que los responsables del negocio comprendan la importancia del cumplimiento normativo y puedan actuar sobre él sin necesidad de intermediación técnica o legal especializada.
+
+Otro aspecto destacable es la proporcionalidad de las recomendaciones. El modelo reconoce que se trata de una empresa pequeña, con recursos limitados y sin un equipo dedicado a seguridad o cumplimiento. Por esta razón, las acciones propuestas no buscan implementar soluciones complejas o costosas, sino establecer controles básicos pero efectivos, como la definición de políticas, la gestión adecuada de accesos o la implementación de mecanismos de respaldo. Esta adecuación al contexto es fundamental, ya que un modelo de cumplimiento que no considere la realidad del negocio difícilmente será implementado.
+
+Por otra parte, el modelo también evidencia una visión prospectiva, al incluir el sistema propuesto dentro del análisis. Esto implica que el cumplimiento normativo no se aborda únicamente como un problema del presente, sino como un criterio de diseño del sistema futuro. Esta decisión es particularmente relevante, ya que permite evitar la acumulación de deuda técnica y legal, asegurando que el nuevo sistema nazca alineado con las exigencias normativas desde su concepción.
+
+Finalmente, en relación con los supuestos del modelo, se identifican varios elementos clave que condicionan el análisis. Se asume, en primer lugar, que el sistema maneja datos personales identificables, lo que activa automáticamente la aplicación de la normativa de protección de datos. Asimismo, se parte de la premisa de que el nivel de madurez en seguridad y cumplimiento es bajo, lo cual se refleja en la ausencia de controles formales y en el estado “Pendiente” de la mayoría de los requisitos. También se asume que el sistema propuesto aún no ha sido implementado, por lo que el modelo funciona como una guía de diseño y no como una auditoría de cumplimiento. Finalmente, se reconoce que la estructura organizacional es limitada, lo que implica que las responsabilidades deben distribuirse entre roles existentes, como la gerencia y la administración.
+
+En conjunto, estos supuestos no debilitan el modelo, sino que lo hacen más realista y aplicable, ya que permiten adaptar el análisis a las condiciones concretas del negocio.
 
 ## 📈 Diagrama final entregado
 > (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
