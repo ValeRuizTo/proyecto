@@ -43,9 +43,18 @@ Supuestos del modelo. El análisis parte de varios supuestos explícitos e impl�
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
-| Nombre del elemento | Tipo | Descripción | Responsable |
-|---------------------|------|-------------|-------------|
-| Ej: Paciente        | Actor | Usuario que agenda una cita médica | Cliente |
+| Nombre del elemento                         | Tipo       | Descripción                                                                                                                    | Responsable           |
+| ------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
+| Usuario Administrativo                      | Actor      | Persona encargada de gestionar documentos de facturación, clientes y operaciones internas de la empresa.                       | Administración        |
+| Gerente                                     | Actor      | Responsable de la supervisión general del negocio, toma de decisiones y control de acceso a información crítica.               | Gerencia              |
+| Sistema de Gestión Documental (Google Docs) | Componente | Plataforma en la nube utilizada para la creación, edición y almacenamiento de documentos de facturación.                       | Administración        |
+| Cuenta Corporativa de Google                | Componente | Cuenta utilizada para acceder a los servicios de Google Workspace, donde se centraliza la autenticación y gestión de usuarios. | Gerencia              |
+| Documentos de Facturación                   | Entidad    | Archivos digitales que contienen información financiera y legal de las transacciones de la empresa.                            | Administración        |
+| Cliente                                     | Actor      | Persona o empresa que adquiere productos o servicios y cuya información es registrada en los documentos de facturación.        | Administración        |
+| Servicio de Autenticación                   | Componente | Mecanismo que valida la identidad de los usuarios antes de permitir el acceso a los sistemas.                                  | Administración        |
+| Internet                                    | Componente | Medio de comunicación que permite el acceso a los servicios en la nube, pero también representa un vector de riesgo.           | Proveedor de servicio |
+| Proveedor Cloud (Google)                    | Actor      | Empresa que provee la infraestructura y servicios en la nube donde se alojan los documentos y cuentas.                         | Google                |
+
 
 ## 🔍 Investigación complementaria
 ### Tema investigado:
