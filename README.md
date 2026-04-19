@@ -16,6 +16,10 @@ A diferencia del taller anterior, en este caso se incluyeron dos perspectivas: u
 
 ## Carpeta entrega4-infra
 
+En este taller se diseñó el diagrama de infraestructura del sistema, comparando el estado actual (AS-IS) con la solución propuesta (TO-BE). Por un lado, se modeló la arquitectura actual basada en Google Docs, evidenciando su simplicidad pero también sus limitaciones, como la dependencia de un único documento y la falta de control estructurado.
+
+Por otro lado, se planteó una arquitectura en la nube más robusta y segura, que incluye una aplicación web, servicios especializados, base de datos central y mecanismos de seguridad. Esta comparación permite visualizar claramente la evolución del sistema, pasando de un manejo manual y vulnerable a una solución organizada, escalable y con mayor control sobre la información.
+
 ## Carpeta entrega5-Seguridad
 
 ## Carpeta entrega6-Normativas
