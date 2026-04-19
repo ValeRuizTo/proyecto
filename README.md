@@ -1,5 +1,9 @@
 # proyecto Almacén Súper Amortiguadores LTDA
 
+Almacén Súper Amortiguadores LTDA es un negocio del sector automotriz que vende repuestos y realiza diagnósticos y reparaciones de vehículos. Actualmente, la gestión de la información se realiza de forma manual mediante un único documento en Google Docs.
+
+Esta forma de trabajo genera problemas como falta de control de inventario, desorganización en los procesos y ausencia de trazabilidad, lo que evidencia la necesidad de implementar una solución tecnológica más estructurada y eficiente.
+
 # Trabajo de primer corte: 
 
 ## Carpeta entrega1-BPMN
@@ -22,4 +26,11 @@ Por otro lado, se planteó una arquitectura en la nube más robusta y segura, qu
 
 ## Carpeta entrega5-Seguridad
 
+En este taller se aplicó la metodología STRIDE para analizar los riesgos de seguridad del sistema actual (AS-IS) de la empresa, el cual está basado principalmente en el uso de Google Docs. A partir de este análisis, se identificaron amenazas reales relacionadas con el acceso no autorizado, la manipulación de información, la falta de trazabilidad y la dependencia de un único documento para gestionar datos críticos del negocio.
+
+El ejercicio permitió evidenciar las principales vulnerabilidades del sistema actual y entender cómo estas afectan directamente la operación del negocio, sirviendo como base para justificar la necesidad de una solución más segura y estructurada.
+
 ## Carpeta entrega6-Normativas
+
+En este taller se evaluó el cumplimiento normativo del sistema de información del negocio, contrastando su estado actual con los requisitos legales y de seguridad establecidos por estándares como ISO 27001, y la legislación colombiana de protección de datos. A partir de un análisis estructurado tipo checklist, se identificaron brechas importantes en el manejo de la información, especialmente considerando que el sistema actual se basa en herramientas como Google Docs sin controles formales.
+
