@@ -75,7 +75,7 @@ En primer lugar, se asumió que los empleados del taller accederán al sistema m
 Adicionalmente, se consideró que el número de usuarios concurrentes del sistema será relativamente bajo, ya que la empresa cuenta con aproximadamente siete empleados, por lo que no se requiere una arquitectura altamente distribuida o de gran escala.
 
 
-## 📈 Diagrama final entregado
+## 📈 Diagrama final AS-IS
 ![.](AS-IS_infrae.png)
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
@@ -90,6 +90,10 @@ Adicionalmente, se consideró que el número de usuarios concurrentes del sistem
 | Documento "Facturas"              | Documento / Recurso de información | Archivo donde se registran manualmente las facturas y parte de la información de los servicios realizados | Cliente               |
 | Google Drive Storage              | Servicio de almacenamiento         | Sistema de almacenamiento en la nube donde se guarda el documento utilizado por la empresa                | Google                |
 | Infraestructura de almacenamiento | Infraestructura cloud              | Servidores y sistemas distribuidos que almacenan y gestionan los archivos dentro de la nube               | Google                |
+
+## 📈 Diagrama final TO-BE
+
+![.](diagramaToBe.png)
 
 
 ## 🔍 Investigación complementaria
