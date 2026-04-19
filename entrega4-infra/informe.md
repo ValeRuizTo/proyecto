@@ -95,6 +95,54 @@ Adicionalmente, se consideró que el número de usuarios concurrentes del sistem
 
 ![.](diagramaToBe.png)
 
+### Capa 1 — Empleados y dispositivos de acceso
+Los tres roles del taller (recepcionista, mecánico y administrador) acceden al sistema desde sus dispositivos habituales: PCs, laptops o teléfonos móviles. No es necesario instalar ninguna aplicación especial, ya que el sistema funciona desde cualquier navegador web moderno.
+Desde estos dispositivos, el tráfico sale hacia Internet usando el protocolo HTTPS, lo que garantiza que toda la información viaje cifrada desde el primer momento. Esto significa que incluso si alguien interceptara la conexión, no podría leer los datos transmitidos.
+
+### Capa 2 — Seguridad de entrada: Cloud Armor e IAP
+Antes de que cualquier solicitud llegue a la aplicación, pasa por dos filtros de seguridad de Google Cloud:
+- Cloud Armor actúa como un firewall de aplicaciones web (WAF). Su función es detectar y bloquear ataques comunes como DDoS, inyecciones SQL y accesos desde IPs maliciosas. Si una solicitud parece sospechosa, Cloud Armor la bloquea antes de que llegue más lejos.
+- Identity-Aware Proxy (IAP) verifica la identidad del usuario mediante OAuth 2.0, que es el mismo protocolo de autenticación que usa Google para sus propios servicios. Solo los empleados con una cuenta autorizada pueden continuar. Si alguien intenta acceder sin credenciales válidas, el sistema lo rechaza automáticamente y registra el intento.
+
+**Esta combinación reemplaza directamente una de las vulnerabilidades más graves del sistema actual: el documento de Google Docs era accesible para cualquier persona que tuviera el enlace.**
+
+### Capa 3 — Aplicación web: Cloud Run (interfaz)
+Una vez autenticado el usuario, la solicitud llega a la aplicación web desplegada en Cloud Run, que es el servicio de Google Cloud para ejecutar contenedores sin necesidad de administrar servidores. La interfaz es lo que el empleado ve en el navegador: los formularios para registrar solicitudes, consultar inventario, generar facturas, etc.
+**Cloud Run tiene una ventaja importante para una empresa pequeña: escala automáticamente. Si un día solo hay un empleado trabajando, el sistema consume mínimos recursos. Si en algún momento todos los empleados trabajan simultáneamente, el sistema se adapta sin intervención manual ni riesgo de caída.**
+
+### Capa 4 — API Gateway y microservicios
+La aplicación web no accede directamente a la base de datos. En cambio, envía peticiones al API Gateway usando el protocolo REST sobre HTTPS. El API Gateway actúa como un director de tráfico: recibe cada petición y la enruta al microservicio correcto según lo que se necesite.
+
+- El sistema tiene tres microservicios independientes, cada uno desplegado en Cloud Run:
+
+
+  - Servicio de Inventario — gestiona el stock de repuestos. Registra entradas y salidas de piezas, controla el stock mínimo y puede generar alertas cuando un repuesto está por agotarse. También facilita la creación de órdenes de compra a proveedores.
+  - Servicio de Solicitudes — maneja las órdenes de servicio de los clientes. Registra el diagnóstico del vehículo, el estado del trabajo (pendiente, en proceso, finalizado) y la asignación del mecánico responsable. Reemplaza directamente el proceso manual actual de registro en papel o en el documento de facturas.
+  - Servicio de Facturación — genera las facturas, registra los métodos de pago y mantiene el historial de ventas. Puede consultar el inventario para incluir automáticamente los repuestos utilizados en cada servicio.
+
+**Que estos tres servicios sean independientes entre sí es importante: si por alguna razón el servicio de facturación tuviera un problema, los otros dos seguirían funcionando con normalidad.**
+
+### Capa 5 — Base de datos: Cloud SQL (PostgreSQL)
+Todos los microservicios se comunican con Cloud SQL, que es el servicio de base de datos relacional gestionado de Google. La base de datos usa PostgreSQL y se conecta a través del puerto estándar 5432 con cifrado TLS, lo que garantiza que los datos nunca viajen en texto plano dentro de la infraestructura.
+Cloud SQL incluye por defecto copias de seguridad automáticas y una réplica de lectura para alta disponibilidad. Esto significa que si el servidor principal de la base de datos fallara, el sistema cambiaría automáticamente a la réplica sin que los empleados notaran una interrupción del servicio.
+**Aquí se almacena toda la información estructurada del negocio: clientes, repuestos, órdenes de servicio, facturas, empleados y pagos, siguiendo exactamente el modelo entidad-relación que se diseñó para el proyecto.**
+
+### Capa 6 — Almacenamiento y monitoreo: Cloud Storage y Cloud Logging
+Cloud Storage guarda archivos no estructurados: documentos adjuntos, fotos de vehículos, backups completos de la base de datos y cualquier archivo que el sistema necesite conservar. Es equivalente a tener un disco duro en la nube con acceso inmediato desde cualquier servicio del sistema.
+Cloud Logging registra automáticamente toda la actividad del sistema: quién inició sesión, qué operaciones realizó, cuándo se modificó un registro y desde qué dispositivo.
+
+### Capa base — Infraestructura distribuida de Google
+Todo el sistema corre sobre la infraestructura física de Google, que está distribuida en múltiples centros de datos. Esto garantiza que aunque un servidor físico falle, el sistema continúe operando desde otro nodo de la red. Para una empresa de 7 empleados, acceder a este nivel de infraestructura sin tener que adquirir ni mantener servidores propios es una de las ventajas más significativas de la solución propuesta.
+
+
+
+
+
+
+
+
+
+
 
 ## 🔍 Investigación complementaria
 ### Tema investigado:
