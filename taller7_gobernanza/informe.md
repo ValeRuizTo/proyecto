@@ -17,7 +17,7 @@ Toda información del negocio debe registrarse de forma estructurada en una fuen
 
 Justificación en el proyecto: El problema central de Súper Amortiguadores es exactamente la ausencia de este principio. Hoy toda la operación depende de un único documento manual, lo que genera falta de visibilidad del stock, riesgo de desabastecimiento y ausencia de historial de vehículos. Adoptar este principio obliga a que cada módulo (inventario, clientes, servicios) persista sus datos de forma estructurada, resolviendo directamente el problema raíz del negocio.
 
-    - ** Modularidad y Separación de Responsabilidades**
+   - ** Modularidad y Separación de Responsabilidades**
     
 Cada proceso del negocio (inventario, facturación, clientes, servicios técnicos) debe estar encapsulado en un módulo independiente con responsabilidades claras y bien delimitadas. El sistema no debe construirse como un bloque monolítico sin estructura donde todo está mezclado. Cada dominio del negocio tiene su propia lógica, sus propios datos y su propio ciclo de vida. Un cambio en cómo se factura no debería romper el control de inventario.
 
