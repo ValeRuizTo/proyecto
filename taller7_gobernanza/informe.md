@@ -1,21 +1,30 @@
 # 📄 Informe Técnico del Taller
 
 ## 🔖 Nombre del Taller
-_Taller 1 - [BPMN]_
+_Taller 7 Gobernanza_
 
 ## 👥 Integrantes del equipo
 - Valentina Ruiz Torres (valentinaruito@unisabana.edu.co)
 - Santiago Soler Prado (santiagosopr@unisabana.edu.co)
 - Darek Aljuri Martinez (darekalma@unisabana.edu.co)
 
-## 🧠 Descripción general del trabajo
+## 1. Definir Principios Arquitectónicos
+- Definir mínimo 3 principios, Explicar cada uno y Justificar su uso en el proyecto
+  
+    - **Datos como Activo Estratégico**
+      
+Toda información del negocio debe registrarse de forma estructurada en una fuente única, accesible en tiempo real. Explicación: Este principio establece que ningún dato operativo, ya sea una venta, un ingreso de repuesto o una reparación realizada  puede vivir fuera del sistema. No en un cuaderno, no en un Google Docs, no en la memoria de un empleado.
 
-El objetivo del taller fue modelar un proceso de negocio real del cliente utilizando la notación BPMN, identificando claramente los eventos, actividades, decisiones, actores involucrados y puntos críticos del flujo.
+Justificación en el proyecto: El problema central de Súper Amortiguadores es exactamente la ausencia de este principio. Hoy toda la operación depende de un único documento manual, lo que genera falta de visibilidad del stock, riesgo de desabastecimiento y ausencia de historial de vehículos. Adoptar este principio obliga a que cada módulo (inventario, clientes, servicios) persista sus datos de forma estructurada, resolviendo directamente el problema raíz del negocio.
 
-El proceso seleccionado corresponde a la gestión de inventario y venta de repuestos de la empresa ******* ubicada en el 7 de agosto en bogota. Este proceso inicia cuando un cliente solicita un repuesto y finaliza cuando el producto es entregado y facturado, o cuando se gestiona el pedido al proveedor en caso de no contar con disponibilidad.
+    - ** Modularidad y Separación de Responsabilidades**
+    
+Cada proceso del negocio (inventario, facturación, clientes, servicios técnicos) debe estar encapsulado en un módulo independiente con responsabilidades claras y bien delimitadas. El sistema no debe construirse como un bloque monolítico sin estructura donde todo está mezclado. Cada dominio del negocio tiene su propia lógica, sus propios datos y su propio ciclo de vida. Un cambio en cómo se factura no debería romper el control de inventario.
 
-La actividad se desarrolló mediante el análisis del flujo real descrito por la empresa, identificando las etapas principales, los responsables del proceso y las decisiones que afectan el flujo (por ejemplo, la verificación de disponibilidad del inventario). Posteriormente, el proceso fue estructurado en un modelo BPMN digital que representa gráficamente la secuencia lógica de actividades y puntos de decisión.
+Justificación en el proyecto: Súper Amortiguadores tiene al menos cuatro procesos claramente diferenciados: venta de repuestos, diagnóstico, reparación y facturación. Si estos procesos se implementan de forma entrelazada, cualquier modificación futura se vuelve costosa y riesgosa. La modularidad permite que el negocio crezca o cambie un proceso sin afectar los demás, algo crítico para una empresa que está digitalizándose por primera vez.
 
+
+  
 ## 🔧 Proceso de desarrollo
 
 Para realizar el trabajo, primero analizamos el proceso actual descrito por la empresa:
