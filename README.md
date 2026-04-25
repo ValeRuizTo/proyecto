@@ -1,3 +1,7 @@
+## Darek Aljuri
+## Valentina Ruiz
+## Santiago Soler
+
 # Proyecto Almacén Súper Amortiguadores LTDA
 
 Almacén Súper Amortiguadores LTDA es un negocio del sector automotriz que vende repuestos y realiza diagnósticos y reparaciones de vehículos. Actualmente, la gestión de la información se realiza de forma manual mediante un único documento en Google Docs.
