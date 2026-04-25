@@ -33,9 +33,9 @@ Justificación en el proyecto: Hoy la empresa no sabe qué se vendió hace tres 
 - Lenguaje o framework, Tipo de comunicación (REST, eventos)
 
  - **Lenguaje y Framework**
-Selección: Python para backend + React.js (frontend)
+Selección: JavaScript para backend + React.js (frontend)
 
-Para el backend se adopta Python  porque ofrece un ORM integrado que facilita el manejo de la base de datos sin escribir SQL manualmente, un sistema de autenticación y roles listo para usar, y una estructura de proyecto que naturalmente favorece la separación por módulos (inventario, clientes, servicios, facturación), lo cual es coherente con el principio de Modularidad definido anteriormente. Además,  REST Framework permite exponer los datos como API de forma sencilla.
+Para el backend se adopta JavaScript   facilita el manejo de la base de datos sin escribir SQL manualmente, un sistema de autenticación y roles listo para usar, y una estructura de proyecto que naturalmente favorece la separación por módulos (inventario, clientes, servicios, facturación), lo cual es coherente con el principio de Modularidad definido anteriormente. Además,  REST Framework permite exponer los datos como API de forma sencilla.
 
 Para el frontend se adopta React.js porque permite construir interfaces dinámicas como tablas de inventario, formularios de registro de servicios y dashboards de ventas sin requerir recargas completas de página, mejorando la experiencia del usuario en el mostrador del almacén.
 
@@ -50,3 +50,14 @@ PostgreSQL garantiza integridad transaccional ACID, lo que significa que operaci
 El modelo relacional es además el más natural para los datos del negocio, ya que las entidades tienen relaciones claras entre sí: un cliente tiene múltiples vehículos, un vehículo tiene múltiples órdenes de servicio, una orden contiene múltiples repuestos con sus precios y cantidades.
 
 Razón para este proyecto: Una base de datos NoSQL sería inadecuada aquí porque la flexibilidad de esquema que ofrece no se necesita — los datos del negocio son estructurados y predecibles — y la consistencia eventual que acepta es inaceptable para transacciones de facturación.
+
+ - **Tipo de Comunicación**
+
+Selección: REST API sobre HTTP/JSON (comunicación síncrona)
+
+La comunicación entre el frontend (React) y el backend (JavaScript) se realiza mediante APIs REST. Cada módulo del sistema expone sus operaciones como endpoints bien definidos: GET /inventario/productos/, POST /servicios/ordenes/, GET /facturacion/facturas/{id}/, etc.
+
+Se descarta por ahora la comunicación asíncrona basada en eventos (Kafka, RabbitMQ) porque, como establece el principio de Simplicidad Operacional, la complejidad de un sistema de mensajería distribuida no está justificada para el volumen y las necesidades actuales del negocio. No hay procesos que necesiten desacoplamiento asíncrono en esta etapa: cuando un técnico registra una reparación, el sistema puede responder síncronamente sin problema.
+
+Razón para este proyecto: REST es el estándar más comprensible, depurable y documentado. Cualquier desarrollador que se integre al equipo en el futuro entenderá inmediatamente cómo funciona la comunicación del sistema, sin necesidad de conocer brokers de mensajes ni patrones de eventos.
+
