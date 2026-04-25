@@ -69,7 +69,7 @@ El modelo relacional es el más natural para los datos del negocio, ya que las e
 
 ### Tipo de Comunicación
 
-**Selección:** REST API sobre HTTPS (externa) + TCP/TLS (interna hacia base de datos)
+**Selección:** REST API sobre HTTPS + TCP/TLS 
 
 La comunicación entre el frontend y los servicios del backend se realiza mediante REST sobre HTTPS, enrutada a través del API Gateway. Cada servicio expone sus operaciones como endpoints bien definidos: GET /inventario/productos/, POST /facturacion/facturas/, GET /solicitudes/ordenes/{id}/, etc.
 
