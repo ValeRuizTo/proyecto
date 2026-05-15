@@ -185,10 +185,10 @@ Cloud Storage guarda adjuntos y backups. Cloud Logging registra toda actividad: 
 
 ## 7. Matriz de triage y priorización
 
-| 🔴 RIESGO CRÍTICO — Alta probabilidad + Impacto crítico | 🟠 RIESGO ALTO — Media-Alta probabilidad + Alto impacto |
+| RIESGO CRÍTICO — Alta probabilidad + Impacto crítico | RIESGO ALTO — Media-Alta probabilidad + Alto impacto |
 |---|---|
 | **Documento único de Google Docs** — Sin control de acceso · Pérdida total de datos · Dependencia de un solo archivo | **Sin control de inventario · Sin trazabilidad** — Inventario visual · Sin historial de servicios · Gestión de pagos en papel |
-| 🟡 **RIESGO MODERADO** — Alta probabilidad + Impacto medio | 🟢 **RIESGO BAJO** — Media probabilidad + Bajo impacto |
+| **RIESGO MODERADO** — Alta probabilidad + Impacto medio | **RIESGO BAJO** — Media probabilidad + Bajo impacto |
 | **Capacitación del equipo** — 7 empleados implica capacitaciones para la adopción de la nueva herramienta | **Carga de red · Latencia de microservicios** — Dependencia de internet · Latencia API Gateway |
 
 ---
